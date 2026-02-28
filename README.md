@@ -39,45 +39,40 @@ The dashboard helps management **monitor performance, identify inefficiencies, a
 
 ## 🧮 Excel Formulas Used
 
-``` 
+
 1️⃣ Total Call Count
-excel
-=COUNTA('call_center_sample_data_2025'!A:A)
+
+=COUNTA()
 Counts all non-empty Call Numbers.
 
 2️⃣ Total Revenue
-=SUM('call_center_sample_data_2025'!F:F)
+=SUM()
 Adds all purchase amounts.
 
 3️⃣ Total Call Duration
-=SUM('call_center_sample_data_2025'!C:C)
+=SUM()
 Calculates total call handling time.
-4️⃣ Average Satisfaction Rating
-=AVERAGE('call_center_sample_data_2025'!G:G)
 
+4️⃣ Average Satisfaction Rating
+=AVERAGE()
 Finds the mean customer satisfaction score.
 
 5️⃣ 5-Star Call Count
-=COUNTIF('call_center_sample_data_2025'!J:J,5)
-
+=COUNTIF()
 Counts calls with a rounded rating of 5.
 
 🔄 Data Processing & Excel Functions
 Helper Columns
 Rating Rounded
-=ROUND([@[Satisfaction Rating]],0)
+=ROUND()
 
 Duration Bucket
-=IFS(
-C2<=30,"0–30 mins",
-C2<=60,"30–60 mins",
-C2<=120,"1–2 hours",
-C2>120,"More than 2 hours"
-)
+=IFS()
 
-📊 Pivot Tables Used
+## 📊 Pivot Tables Used
 The PIVOTS sheet contains multiple pivot tables:
 Examples:
+
 Calls by Day of Week
 Revenue by City
 Average Rating by Representative
@@ -88,7 +83,7 @@ Report Layout: Tabular Form
 Number Formatting applied
 Filters connected to slicers
 
-🎛️ Dashboard Interactivity
+## 🎛️ Dashboard Interactivity
 Excel Features Used
 Slicers for:
 City
@@ -112,14 +107,14 @@ Difficult to track customer satisfaction
 Manual reporting was time-consuming
 No way to compare agent performance
 
-✅ Solutions Provided
+## ✅ Solutions Provided
 
 Real-time KPI monitoring
 Identification of peak call days & long calls
 Performance comparison across agents & cities
 Better decision-making using customer ratings
 
-🛠 Tools & Technologies
+## 🛠 Tools & Technologies
 
 Microsoft Excel
 Pivot Tables & Pivot Charts
@@ -127,7 +122,7 @@ Slicers
 Advanced Excel Formulas
 Dashboard Design Best Practices
 
-📌 Final Outcome
+## 📌 Final Outcome
 
 This Excel dashboard transforms raw call center data into clear, interactive, and decision-ready insights, helping stakeholders improve efficiency, revenue, and customer satisfaction.
 
