@@ -39,8 +39,9 @@ The dashboard helps management **monitor performance, identify inefficiencies, a
 
 ## 🧮 Excel Formulas Used
 
-### 1️⃣ Total Call Count
-```excel
+``` 
+1️⃣ Total Call Count
+excel
 =COUNTA('call_center_sample_data_2025'!A:A)
 Counts all non-empty Call Numbers.
 
