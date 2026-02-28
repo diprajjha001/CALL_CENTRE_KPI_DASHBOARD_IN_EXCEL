@@ -102,7 +102,7 @@ Consistent color theme & icons.
 All slicers are connected to multiple pivot tables using: Report Connections
 ## 🚀 Business Problems Solved
 
-###❌ Problems
+❌ Problems
 
 - No visibility into call center performance
 - Difficult to track customer satisfaction
