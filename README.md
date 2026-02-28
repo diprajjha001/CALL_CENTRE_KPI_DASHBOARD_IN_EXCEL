@@ -88,33 +88,33 @@ Tabular Form,Number Formatting applied,Filters connected to slicers
 ## 🎛️ Dashboard Interactivity
 Excel Features Used
 Slicers for:
-City
-Gender
-Day of Week
-Representative
-Pivot Charts
-Column Charts
-Bar Charts
-Donut Charts
-Card-style KPI visuals
-Consistent color theme & icons
-All slicers are connected to multiple pivot tables using:
+City,
+Gender,
+Day of Week,
+Representative,
+Pivot Charts,
+Column Charts,
+Bar Charts,
+Donut Charts,
+Card-style KPI visuals,
+Consistent color theme & icons.
 
-Report Connections
-🚀 Business Problems Solved
-❌ Problems
+All slicers are connected to multiple pivot tables using: Report Connections
+## 🚀 Business Problems Solved
 
-No visibility into call center performance
-Difficult to track customer satisfaction
-Manual reporting was time-consuming
-No way to compare agent performance
+###❌ Problems
+
+- No visibility into call center performance
+- Difficult to track customer satisfaction
+- Manual reporting was time-consuming
+- No way to compare agent performance
 
 ## ✅ Solutions Provided
 
-Real-time KPI monitoring
-Identification of peak call days & long calls
-Performance comparison across agents & cities
-Better decision-making using customer ratings
+- Real-time KPI monitoring
+- Identification of peak call days & long calls
+- Performance comparison across agents & cities
+- Better decision-making using customer ratings
 
 ## 🛠 Tools & Technologies
 
