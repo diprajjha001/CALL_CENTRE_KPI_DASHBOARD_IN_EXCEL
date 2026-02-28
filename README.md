@@ -81,7 +81,9 @@ Call Volume by Duration Bucket,
 ### Pivot Settings Used:
 Values summarized by SUM, COUNT, AVERAGE
 
-### Report Layout: Tabular Form,Number Formatting applied,Filters connected to slicers
+### Report Layout: 
+
+Tabular Form,Number Formatting applied,Filters connected to slicers
 
 ## 🎛️ Dashboard Interactivity
 Excel Features Used
